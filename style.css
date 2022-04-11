@@ -1,17 +1,18 @@
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04aa6d;
+  background-color: #0fabb4;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 30px;
+  font-size: 44px;
   border: none;
   cursor: pointer;
+  position: relative;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover,
 .dropbtn:focus {
-  background-color: #3e8e41;
+  background-color: #255c5b;
 }
 
 /* The search field */
@@ -23,7 +24,7 @@
   font-size: 16px;
   padding: 14px 20px 12px 45px;
   border: none;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 /* The search field when it gets focus/clicked on */
@@ -42,7 +43,7 @@
   display: none;
   position: absolute;
   background-color: #f6f6f6;
-  min-width: 230px;
+  min-width: 23px;
   border: 1px solid #ddd;
   z-index: 1;
 }
