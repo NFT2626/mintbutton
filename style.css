@@ -1,4 +1,23 @@
 /* Dropdown Button */
+html,
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 100%, #223, #000 40%);
+  margin: 0;
+}
+
+body:after {  
+  content: url('https://raw.githubusercontent.com/NFT2626/Punks-Crowd/main/Picsart_22-01-08_11-50-36-41.png');
+  mix-blend-mode: multiply;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 38.25%);
+  text-align: center;  
+}
 .dropbtn {
   background-color: #0fabb4;
   color: rgb(255, 255, 255);
